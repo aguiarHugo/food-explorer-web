@@ -32,11 +32,29 @@ export const Container = styled.header`
 
   .app__header-input {
     width: 50rem;
-    margin: 2.8rem 0 2.8rem 4.3rem;
+    margin: 0 3.2rem;
   }
 
-  .app__header-input input {
+  .app__header-button {
+    display: flex;
+    align-items: center;
+    width: 21.6rem;
+  }
+
+  .app__header-signout {
+    margin: 0 12.8rem 0 3.7rem;
+  }
+
+  .app__header-signout button {
+    background: none;
+    border: none;
     display: flex;
     align-items: center;
   }
+
+  .app__header-signout svg {
+    font-size: 2.4rem;
+    color: white;
+  }
+  
 `
