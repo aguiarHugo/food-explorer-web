@@ -22,16 +22,15 @@ export const Container = styled.div`
     color: ${( { theme } ) => theme.COLORS.WHITE};
 
     border: none;
+    outline: 0;
 
     &::placeholder {
       color: ${( { theme } ) => theme.COLORS.LIGHT_500 }
     }
 
+  .input-svg {
+    margin-left: 20rem;
+  }
   
   }
-
-  > svg {
-      margin-left: 1.4rem;
-    }  
-
 `

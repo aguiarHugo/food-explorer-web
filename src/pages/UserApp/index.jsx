@@ -5,6 +5,9 @@ export function UserApp(){
   return(
     <Container>
       <Header />
+      <div className="app__user-content">
+        
+      </div>
     </Container>
   )
 }
