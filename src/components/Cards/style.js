@@ -2,15 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-  h1 {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 140%;
-    color: ${({theme}) => theme.COLORS.LIGHT_300};
-
-    margin: 4.9rem 0 2.3rem 12rem;
-  }
+  margin: 0 0 2.3rem 7rem;
 
   .app__cards {
     width: 30.4rem;
