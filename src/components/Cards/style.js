@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-  margin: 0 0 2.3rem 7rem;
+  margin-bottom: 2.3rem;
 
   .app__cards {
+
     width: 30.4rem;
     height: 46.2rem;
-    margin-left: 12.4rem;
     padding: 2.4rem;
 
     background-color: ${({theme}) => theme.COLORS.DARK_500};

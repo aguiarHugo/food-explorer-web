@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+  > h1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.2rem;
+      line-height: 140%;
 
-  display: grid;
-  grid-template-rows: 10.4rem auto;
-  grid-template-areas: 'header' 'content';
-
-  .app__user-content {
-    grid-area: 'content';
-    overflow-y: scroll;
-  }
+      margin: 4.9rem 0 2.3rem 20rem;
+    }
+  
 `
