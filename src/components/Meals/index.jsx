@@ -1,10 +1,12 @@
+import React, { useRef } from 'react'
+import { Cards } from '../Cards'
+import { Container } from './style'
+
+
 import spaguettiGambe from '../../assets/pasta.png'
 import torradaParma from '../../assets/torradaparma.png'
 import saladaRavanello from '../../assets/saladaravanello.png'
 import salada from '../../assets/salada.png'
-
-import { Cards } from '../Cards'
-import { Container } from './style'
 
 export function Meals(){
   return(
@@ -38,7 +40,7 @@ export function Meals(){
           text="Alface, cebola, pepino e tomate ao azeite"
           price="R$ 20,97"
           />
-        </div>
+        </div>          
       </Container>
   )
 }
