@@ -5,7 +5,6 @@ import salada from '../../assets/salada.png'
 
 import { Cards } from '../Cards'
 import { Container } from './style'
-import './style'
 
 export function Meals(){
   return(

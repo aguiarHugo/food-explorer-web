@@ -5,7 +5,6 @@ import boloDeBanana from '../../assets/dessert4.png'
 
 import { Cards } from '../Cards'
 import { Container } from './style'
-import './style'
 
 export function Desserts(){
   return(
