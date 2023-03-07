@@ -15,15 +15,15 @@ export function Drinks(){
           img={espresso}
           alt="Espresso"
           title="Espresso  >"
-          text="Massa fresca com camarões e pesto."
-          price="R$ 79,97"
+          text="Café cremoso feito na temperatura e pressões perfeitas"
+          price="R$ 15,97"
           />
           <Cards 
           img={sucoDeMaracuja}
           alt="Suco de Maracujá"
           title="Suco de Maracujá >"
           text="Massa fresca com camarões e pesto."
-          price="R$ 25,97"
+          price="R$ 13.97"
           />
           <Cards 
             img={teDautunno}
@@ -34,9 +34,9 @@ export function Drinks(){
           />
           <Cards 
           img={pomo}
-          alt="Pomo"
-          title="Pomo>"
-          text="Alface, cebola, pepino e tomate ao azeite"
+          alt="Pomodoro"
+          title="Pomodoro >"
+          text="Maça, canela e whisky"
           price="R$ 20,97"
           />
         </div>
