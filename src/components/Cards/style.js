@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
 
   margin: 2.3rem 0;
+  
+  
 
   .app__cards {
 
     width: 30.4rem;
-    height: 46.2rem;
+    min-height: 50rem;
     padding: 2.4rem;
 
     background-color: ${({theme}) => theme.COLORS.DARK_500};
@@ -19,6 +21,13 @@ export const Container = styled.div`
 
     border: 1px solid #000204;
     border-radius: 8px;
+
+    > button {
+      background: transparent;
+      border: none;
+      position: relative;
+      align-self: flex-end;
+     }
 
     > img {
       width: 17.6rem;

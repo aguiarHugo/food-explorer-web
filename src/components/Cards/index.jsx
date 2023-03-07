@@ -1,10 +1,12 @@
 import { Container } from "./style";
-import {AiOutlineMinus, AiOutlinePlus} from 'react-icons/ai'
+import {AiOutlineMinus, AiOutlinePlus, AiOutlineHeart} from 'react-icons/ai'
 
 export function Cards({img, title, text, price }){
   return(
     <Container>
+
         <div className="app__cards">
+          <button type="button"><AiOutlineHeart size={24} color="#fff"/></button>
           <img src={img} alt="teste" />
           <h2>{title}</h2>
           <p>{text}</p>
