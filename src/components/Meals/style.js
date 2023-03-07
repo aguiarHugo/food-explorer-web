@@ -12,11 +12,12 @@ export const Container = styled.div`
   }
 
   .app__userapp-meals::-webkit-scrollbar {
-    width: 8px;             
+    width: 8px;   
   }
 
   .app__userapp-meals::-webkit-scrollbar-track {
-    background-color: ${({ theme }) => theme.COLORS.DARK_400};        
+    background-color: ${({ theme }) => theme.COLORS.DARK_400};
+            
   }
 
   .app__userapp-meals::-webkit-scrollbar-thumb {

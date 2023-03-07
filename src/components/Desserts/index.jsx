@@ -1,43 +1,43 @@
-import spaguettiGambe from '../../assets/pasta.png'
-import torradaParma from '../../assets/torradaparma.png'
-import saladaRavanello from '../../assets/saladaravanello.png'
-import salada from '../../assets/salada.png'
+import prugnaPie from '../../assets/dessert1.png'
+import peachyPastrie from '../../assets/dessert2.png'
+import macarons from '../../assets/dessert3.png'
+import boloDeBanana from '../../assets/dessert4.png'
 
 import { Cards } from '../Cards'
 import { Container } from './style'
 import './style'
 
-export function Meals(){
+export function Desserts(){
   return(
     <Container>
-      <div className="app__userapp-meals">
+      <div className="app__userapp-desserts">
           <Cards 
-          img={spaguettiGambe}
-          alt="Spaguetti Gambe"
-          title="Spaguetti Gambe  >"
-          text="Massa fresca com camarões e pesto."
-          price="R$ 79,97"
+          img={prugnaPie}
+          title="Prugna Pie >"
+          alt="Prugna Pie"
+          text="Torta de ameixa com massa amentaigada, polvilho em açucar"
+          price="79,97"
           />
           <Cards 
-          img={torradaParma}
-          alt="Torrada Parma"
-          title="Torrada Parma  >"
-          text="Massa fresca com camarões e pesto."
-          price="R$ 25,97"
+          img={peachyPastrie}
+          title="Peachy Pastrie  >"
+          alt="Peachy Pastrie >"
+          text="Delicioso folheado de pêssego com folhas de hortelã."
+          price="32,97"
           />
           <Cards 
-            img={saladaRavanello}
-            alt="Salada Ravanello"
-            title="Salada Ravanello  >"
-            text="Rabanetes, folhas verdes e molho agridoce salpicados com gerglim."
-            price="R$ 49,97"
+            img={macarons}
+            alt="Macarons"
+            title="Macarons  >"
+            text="Farinha de amêndoas, manteiga, claras e açúcar."
+            price="79,97"
           />
           <Cards 
-          img={salada}
-          alt="Salada"
-          title="Salada>"
-          text="Alface, cebola, pepino e tomate ao azeite"
-          price="R$ 20,97"
+          img={boloDeBanana}
+          alt="Bolo de Banana"
+          title="Bolo de Banana>"
+          text="Bolo de banana tradicional"
+          price="20,97"
           />
         </div>
       </Container>

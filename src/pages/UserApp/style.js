@@ -9,7 +9,7 @@ export const Container = styled.div`
       font-size: 3.2rem;
       line-height: 140%;
 
-      margin: 4.9rem 0 2.3rem 20rem;
+      margin: 4.9rem 0 0 20rem;
     }
   
 `
